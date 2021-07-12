@@ -107,6 +107,7 @@ hr{
 .course-info{
     display: flex;
     justify-content: space-between;
+    align-items: center
     
 }
 .course-info .filled{
@@ -121,9 +122,15 @@ hr{
     Width:94.83px;
     Height:29.38px;
     border-radius: 14.6913px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-info .course-duration,.clock{
+    margin-right: 8px;
 }
 
-/* -------Media Query -----------*/
+/* -------Media Query max-width:688px-----------*/
 
 @media only screen and (max-width:688px){
         .container{
@@ -143,6 +150,7 @@ hr{
        }
 
 }
+/* -------Media Query (min-width:689px) and (max-width:992px)-----------*/
 @media only screen and (min-width:689px) and (max-width:992px){
         .container{
             width: 100%;
